@@ -1,0 +1,33 @@
+body{
+	line-height: 1.2em;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+form{
+	margin: 0 auto;
+	width: 90%;
+}
+
+#email{
+}
+
+#number{
+	clear: both;
+}
+
+#dateOfBirth{
+	
+}
+
+#submit{
+	clear: both;
+}
+
+@media only screen and (min-width: 480px){
+	
+}
+
+@media only screen and (min-width: 992px){
+	
+}
