@@ -5,7 +5,7 @@ body{
 }
 
 #wrap{
-	width: 100%;
+	width: 100;
 	margin: 0 auto;
 	border-radius: 5px;
   background-color: #f2f2f2;
@@ -24,7 +24,6 @@ body{
 
 
 #submit{
-	clear: both;
 	float: right;
 	background-color: #04AA6D;
   color: white;
@@ -33,24 +32,14 @@ body{
   border-radius: 4px;
 }
 
-@media only screen and (min-width: 480px){	
-  #wrap{
-		width: 65%;
-  }
-
-  body{
-		color: pink;
-  }
+@media only screen and (min-width: 480px){
+	
+	
 
 }
 
 @media only screen and (min-width: 992px){
-	#wrap{
-		width: 75%;
-  }
-	body{
-		color: blue;
-  }
+	
 	
 	
 }
