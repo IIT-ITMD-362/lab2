@@ -9,19 +9,18 @@ form{
 	width: 90%;
 }
 
-#email{
+div{
+  float: left;
+	padding: 10px 0;
 }
 
-#number{
-	clear: both;
+fieldset{
+	padding: 20px;
 }
 
-#dateOfBirth{
-	
-}
 
 #submit{
-	clear: both;
+	margin: 10px 0;
 }
 
 @media only screen and (min-width: 480px){
