@@ -4,16 +4,17 @@ body{
 	font-size: 1em;
 }
 
-*{
-	box-sizing: border-box;
-}
-
 #wrap{
+	display: flex;
 	width: 100%;
 	margin: 0 auto;
 	border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 50px;
+  padding: 20px;
+}
+
+form{
+	margin: 0 auto;
 }
 
 #email, #number, #dateOfBirth{
@@ -25,26 +26,32 @@ body{
   box-sizing: border-box;
 }
 
-div{
+#float{
 	padding: 20px;
+	float: left;
 }
 
 #submit{
+	clear: both;
+	float: left;
 	background-color: #04AA6D;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
+  margin: 8px 20px;
+
+ 
 }
 
-@media only screen and (min-width: 480px){
-	
+
+@media only screen and (min-width: 800px){
+	#wrap{
+		width: 75%;
+		color: pink;
+  }
+
 	
 
 }
 
-@media only screen and (min-width: 992px){
-	
-	
-	
-}
