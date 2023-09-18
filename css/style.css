@@ -38,7 +38,7 @@ form{
   box-sizing: border-box;
 }
 
-#float{
+.float{
 	padding: 20px;
 	float: left;
 }
