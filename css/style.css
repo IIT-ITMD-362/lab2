@@ -1,25 +1,21 @@
-* {
-  box-sizing: border-box;
-}
-
 body{
 	line-height: 1.2em;
 	font-family: Arial;
 	font-size: 1.3em;
 }
 
-#wrap{
-	display: flex;
-	flex-wrap: wrap;
-	margin: 0 auto;
+#container{
+	margin: 50px auto;
 	border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
 	color: blue;
+	height: 350px;
 }
 
 
 input{
+	box-sizing: border-box;
 	width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -27,41 +23,39 @@ input{
   border-radius: 4px;
 }
 
-.float{
-	padding: 20px;
-	float: left;
-}
 
 #submit{
-	clear: both;
-	float: left;
-	background-color: blue;
-  color: white;
+	display: block;
+	width: 100%;
   padding: 12px 20px;
-  border: none;
+  border: 1px solid #ccc;
   border-radius: 4px;
-  margin: 8px 20px;
-	width: 50%;
+	margin-top: 20px;
+	background-color: blue;
+	color: white;
 }
 
 @media only screen and (min-width: 510px){
-	#wrap{
+	#container{
 		width: 80%;
 		color: green;
   }
 	
 	#submit{
 		background-color: green;
+		width: 30%;
+		float: right;
+		margin-top: 40px;
 	}
 	
 	body{
-	font-size: 1.2em;
+	  font-size: 1.2em;
   }
 	
 }
 
 @media only screen and (min-width: 800px){
-	#wrap{
+	#container{
 		width: 75%;
 		color: pink;
 	  flex-wrap: nowrap;
@@ -69,6 +63,9 @@ input{
 	
 	#submit{
 		background-color: pink;
+		width: 15%;
+		float: right;
+		margin-top: 60px;
 	}
 	
 	body{
