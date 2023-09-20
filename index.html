@@ -8,15 +8,16 @@
   <link rel="stylesheet" media="screen" href="css/style.css">
 </head>
 <body>
-  <div id="wrap">
-	  <h1>Personal Information</h1>
-		<form id="test" action="#null" method="post" autocomplete="off">
-			<div class="float"><label>Email: <input type="email" name="email" id="email"> </label></div>
-			<div class="float"><label>Phone number: <input type="tel" name="number" id="number"> </label></div>
-			<div class="float"><label>Date of Birth: <input type="date" name="dateOfBirth" id="dateOfBirth"></label></div>
-			<input type="submit" id="submit">
+		<form method="get" action="#null" autocomplete="on">
+		  <div id="container">
+				<div class="float"><label>Email: <input type="email" name="email"></label></div>
+				<div class="float"><label>Phone number: <input type="tel" name="number"> </label></div>
+				<div class="float"><label>Date of Birth: <input type="date" name="dateOfBirth"></label></div>
+			</div>
+			<div id="submit">
+			  <input type="submit">
+		  </div>
 		</form>
-	</div>
 	
 </body>
 </html>
